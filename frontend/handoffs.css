@@ -1,0 +1,5 @@
+.chain-layout{display:grid;grid-template-columns:2fr 1fr;gap:1.3rem;align-items:start}
+.chain-layout ol{padding-left:1.35rem;border-left:3px double var(--s-line)}
+.chain-layout li{padding:.32rem .25rem}.chain-layout li strong{padding:0 .7rem}
+.chain-layout article{margin-bottom:1rem}
+@media(max-width:740px){.chain-layout{grid-template-columns:1fr}}

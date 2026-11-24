@@ -1,0 +1,13 @@
+:root{--s-page:oklch(95% .018 252);--s-panel:oklch(98% .012 255);--s-ink:oklch(26% .035 248);--s-muted:oklch(44% .05 248);--s-line:oklch(75% .042 239);--s-accent:oklch(39% .12 238)}
+.masthead{border-block-start:6px double var(--s-accent)}
+.signin-heading{padding:1.3rem 0;border-block:6px double var(--s-accent)}
+
+.module-heading { margin-bottom: 1.6rem; border-bottom:1px solid var(--s-line); padding-bottom: .9rem; }
+.module-heading p { max-width: 65ch; color:var(--s-muted); }
+.panel { min-width:0; padding: 1.25rem; background:var(--s-panel); border:1px solid var(--s-line); }
+.table-scroll { width: 100%; overflow:auto; }
+.compact-form { display:grid; gap:.7rem; align-content:start; }
+.compact-form button { justify-self:start; }
+[data-state=held], .status-chip.held { color:var(--s-error); }
+.status-chip.closed, .status-chip.approved, .status-chip.ready { color:var(--s-ok); }
+@media(max-width: 767px) { .panel { padding:.75rem; } }

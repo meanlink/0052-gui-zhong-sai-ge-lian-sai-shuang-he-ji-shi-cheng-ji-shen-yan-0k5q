@@ -1,0 +1,5 @@
+.score-mast article{max-width:75rem}
+.score-mast header{border-block-end:4px double var(--s-accent);display:flex;justify-content:space-between;align-items:start}
+.score-mast section{border-block-start:1px solid var(--s-line);padding:.65rem 0 1.1rem}
+.score-mast .score-note{border-block:1px solid var(--s-line);padding:.65rem}
+.score-mast form{max-width:35rem;margin-top:1rem}

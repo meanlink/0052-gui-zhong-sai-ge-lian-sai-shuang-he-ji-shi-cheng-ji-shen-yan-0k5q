@@ -1,0 +1,4 @@
+.stamp-layout{display:grid;grid-template-columns:1.8fr 1fr;gap:1.1rem;align-items:start}
+.seal-entry{display:grid;grid-template-columns:9em 1fr auto;gap:.85rem;align-items:start;border-block-end:1px solid var(--s-line);padding:1rem 0}
+.seal-entry strong{display:block;border:2px dashed var(--s-accent);padding:.25rem;font-variant-numeric:tabular-nums}
+@media(max-width:740px){.stamp-layout{grid-template-columns:1fr}.seal-entry{grid-template-columns:1fr 1fr}}
