@@ -1,5 +1,9 @@
 .return-clicks{display:grid;grid-template-columns:1.8fr 1fr;gap:1.3rem;align-items:start}
 .return-clicks article{margin-bottom:.8rem;border-inline-start:4px double var(--s-accent)}
+.return-clicks article[data-book=reviewing]{border-inline-start-color:var(--s-warn,#b8860b)}
+.return-clicks article[data-book=withdrawn]{border-inline-start-color:var(--s-error)}
+.return-clicks article[data-book=published]{border-inline-start-color:var(--s-ok)}
+.book-version{color:var(--s-muted);margin-inline-start:.4rem}
 .click-line{padding:.65rem .2rem;border-block-start:1px solid var(--s-line);display:grid;grid-template-columns:5em 1.6fr 1fr;gap:.5rem;align-items:start}
 .click-line details{grid-column:2/-1}.click-line summary{color:var(--s-accent);cursor:pointer}.click-line form{margin-top:.6rem}
 @media(max-width:860px){.return-clicks{grid-template-columns:1fr}.click-line{grid-template-columns:4.5em 1fr}.click-line details{grid-column:1/-1}}
